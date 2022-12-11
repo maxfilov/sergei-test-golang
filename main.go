@@ -16,7 +16,7 @@ type Response struct {
 	Output string `json:"output"`
 }
 
-func solve(input []rune) string {
+func solve(input string) string {
 	// len(string) returns the number of bytes.
 	// This is, of course, a memory waste, but I don't care
 	output := make([]rune, len(input))
