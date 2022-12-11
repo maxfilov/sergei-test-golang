@@ -9,7 +9,7 @@ import (
 )
 
 type Request struct {
-	Input []rune `json:"input"`
+	Input string `json:"input"`
 }
 
 type Response struct {
